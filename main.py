@@ -31,7 +31,7 @@ def pandas_sugar():
 
 @app.route('/bob')
 def bob():
-    val = {"Bob" : "You're not bob, IM BOB"}
+    val = {"Bob" : "You're not Bob, IM BOB"}
     return jsonify(val)
 
 
