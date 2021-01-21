@@ -2,6 +2,7 @@
 from flask import Flask
 from flask import jsonify
 import pandas as pd
+import wikipedia
 
 app = Flask(__name__)
 
