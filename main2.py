@@ -45,7 +45,7 @@ def wikipedia_route(company):
     result = wikipedia.summary(company, sentences=10)
     
     client = language.LanguageServiceClient()
-    document = types.Document(
+    document = language.types.Document(
         content = result,
         type = enums.Document.Type.PLAIN_TEXT
     )
