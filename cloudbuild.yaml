@@ -1,14 +1,22 @@
+  
 steps:
 - name: python:3.7
   id: INSTALL
   entrypoint: python3
-  args: ['-m','pip','install','-t','.','-r','requirements.txt']
-- name: gcr.io/$PROJECT_ID/state
-  args: ['pylint','main.py']
+  args:
+  - '-m'
+  - 'pip'
+  - 'install'
+  - '-t'
+  - '.'
+  - '-r'
+  - 'requirements.txt'
+- name: python:3.7
+  entrypoint: ./pylint_runner
   id: LINT
   waitFor:
-    - INSTALL
+  - INSTALL
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 timeout: "1600s"
-images: ['grc.io/${PROJECT_ID}/pylint']
+images: ['gcr.io/$PROJECT_ID/pylint']
