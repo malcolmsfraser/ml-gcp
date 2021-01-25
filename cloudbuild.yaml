@@ -1,8 +1,8 @@
 steps:
 - name: "python"
   args: ["make","install"]
-- name: "python"
-  args: ["make","lint"]
+- name: "gcr.io/${PROJECT_ID}/pylint"
+  args: ["main.py"]
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 timeout: "1600s"
