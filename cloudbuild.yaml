@@ -1,4 +1,10 @@
 steps:
+- name: "Install dependencies"
+  run: |
+    make install
+- name: "Lint"
+  run: |
+    make lint
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 timeout: "1600s"
