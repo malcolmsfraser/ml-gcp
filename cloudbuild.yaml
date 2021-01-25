@@ -3,6 +3,7 @@ steps:
   args: ["make","install"]
 - name: "gcr.io/${PROJECT_ID}/pylint"
   args: ["main.py"]
+  tags: ["cloud-builders-community"]
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 timeout: "1600s"
