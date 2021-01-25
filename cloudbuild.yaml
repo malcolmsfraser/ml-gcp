@@ -3,8 +3,8 @@ steps:
   id: INSTALL
   entrypoint: python3
   args: ['-m','pip','install','-t','.','-r','requirements.txt']
-- name: python:3.7
-  entrypoint: ./pylint_runner
+- name: 'gcr.io/${PROJECT_ID}/pylint'
+  args: ['main.py']
   id: LINT
   waitFor:
     - INSTALL
