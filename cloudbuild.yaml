@@ -3,8 +3,8 @@ steps:
   id: INSTALL
   entrypoint: python3
   args: ['-m','pip','install','-t','.','-r','requirements.txt']
-- name: bash
-  args: ['make','lint']
+- name: gcr.io/$PROJECT_ID/state
+  args: ['pylint','main.py']
   id: LINT
   waitFor:
     - INSTALL
