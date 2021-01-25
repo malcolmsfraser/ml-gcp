@@ -3,7 +3,7 @@ steps:
   id: INSTALL
   entrypoint: python3
   args: ['-m','pip','install','-t','.','-r','requirements.txt']
-- name: 'gcr.io/${PROJECT_ID}/pylint'
+- name: 'gcr.io/${PROJECT_ID}/pylint:cloud-builders-community'
   args: ['main.py']
   id: LINT
   waitFor:
