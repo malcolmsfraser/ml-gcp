@@ -3,5 +3,5 @@ install:
 	pip install -r requirements.txt
 lint:
 	pylint --disable=R,C main.py
-	pylint --disable=R,C main2.py
+	pylint --disable=R,C main3.py
 all: install lint

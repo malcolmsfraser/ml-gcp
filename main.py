@@ -2,7 +2,8 @@
 from flask import Flask
 from flask import jsonify
 import pandas as pd
-import wikipedia
+import logging
+#import wikipedia
 
 app = Flask(__name__)
 
