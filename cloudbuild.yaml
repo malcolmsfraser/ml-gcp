@@ -4,7 +4,7 @@ steps:
   entrypoint: python3
   args: ['-m','pip','install','-t','.','-r','requirements.txt']
 - name: python:3.7
-  args: ['pylint','main.py']
+  args: ['python3','pylint','main.py']
   id: LINT
   waitFor:
     - INSTALL
