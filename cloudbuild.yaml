@@ -12,8 +12,9 @@ steps:
   - '-r'
   - 'requirements.txt'
 - name: python:3.7
-  entrypoint: ./pylint_runner
+  entrypoint: pylint
   id: LINT
+  args: ["main.py"]
   waitFor:
   - INSTALL
 - name: "gcr.io/cloud-builders/gcloud"
