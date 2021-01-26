@@ -19,5 +19,5 @@ steps:
   - INSTALL
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
+images: ['gcr.io/gcp-flask-302323/pylint']
 timeout: "1600s"
-images: ['gcr.io/${PROJECT_ID}/pylint']
