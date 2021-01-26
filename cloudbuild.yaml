@@ -11,7 +11,7 @@ steps:
   - '.'
   - '-r'
   - 'requirements.txt'
-- name: python:3.7
+- name: "gcr.io/${PROJECT_ID}/pylint"
   entrypoint: python3
   id: LINT
   args: ["lint.py"]
