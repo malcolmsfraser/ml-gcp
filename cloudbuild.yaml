@@ -11,8 +11,8 @@ steps:
   - '.'
   - '-r'
   - 'requirements.txt'
-- name: "gcr.io/${PROJECT_ID}/pylint"
-  arg: ['main.py']
+- name: 'gcr.io/${PROJECT_ID}/pylint'
+  args: ['main.py']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 tags: ['cloud-builders-community']
