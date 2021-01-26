@@ -11,9 +11,8 @@ steps:
   - '.'
   - '-r'
   - 'requirements.txt'
-- name: 'gcr.io/${PROJECT_ID}/pylint'
+- name: 'gcr.io/${PROJECT_ID}/pylint:cloud-builders-community'
   args: ['main.py']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
-tags: ['cloud-builders-community']
 timeout: "1600s"
