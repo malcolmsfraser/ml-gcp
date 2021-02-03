@@ -1,5 +1,7 @@
 # ml-gcp
 Source code for a continuously delivered Flask Application on Google Cloud Platform. The application is built and deployed using Google App Engine and the continuous deployment is coordinated with Cloud Build.
+
+[![alt text](https://github.com/malcolmsfraser/ml-gcp/blob/main/CDproject-thumbnail.jpg)](https://youtu.be/cK-KkWaCG9Y)
 ### Setting up this application on your own  
 
 Create a new Google Cloud project
