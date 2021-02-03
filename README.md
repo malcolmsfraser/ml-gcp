@@ -10,7 +10,10 @@ Set the new project
 gcloud config set project $GOOGLE_CLOUD_PROJECT
 ```
 Clone this repository and set it as the working directory
-
+```{bash}
+git clone https://github.com/malcolmsfraser/ml-gcp.git
+cd ml-gcp
+```
 Create a virtual environment and source it
 ```{bash}
 virtualenv --python $(which python3) venv
