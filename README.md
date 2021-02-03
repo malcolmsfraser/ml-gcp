@@ -60,11 +60,11 @@ Back on the GCP Dashboard
 >Navigate to the Settings tab
 >>Ensure that App Engine Admin and Service Account User are enabled
 
->Click the link at the bottom for the IAM Section
->>Ensure that the user ending in <@cloudbuild.gserviceaccount.com> has the following roles:
->>App Engine Admin
->>Cloud Build Service Account
->>Service Account User
+>>Click the link at the bottom for the IAM Section
+>>>Ensure that the user ending in <@cloudbuild.gserviceaccount.com> has the following roles:
+>>>App Engine Admin  
+>>>Cloud Build Service Account  
+>>>Service Account User
 
 Back on the Cloud Build dashboard, navigate to the Triggers tab
 
