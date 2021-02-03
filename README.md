@@ -8,7 +8,7 @@ Create a new Google Cloud project
 In the Cloud Shell run the following:
 
 >Set the new project
-```{bash}
+>```{bash}
 gcloud config set project $GOOGLE_CLOUD_PROJECT
 ```
 >Clone this repository and set it as the working directory
