@@ -3,7 +3,7 @@ Source code for a continuously delivered Flask Application on Google Cloud Platf
 
 **Demo Video**  
 [![alt text](https://github.com/malcolmsfraser/ml-gcp/blob/main/CDproject-thumbnail.jpg)](https://youtu.be/cK-KkWaCG9Y)  
-[[See this setup in AWS]](https://github.com/malcolmsfraser/EB-FlaskApp-CD-CI)
+[[See this setup on AWS]](https://github.com/malcolmsfraser/EB-FlaskApp-CD-CI)
 
 ### Setting up this application on your own  
 
