@@ -44,7 +44,6 @@ In the Cloud Shell run the following:
 >```{bash}
 >ssh-keygen -t rsa
 >```
-
 >Initiate git and re-assign remote repo origin
 >```{bash}
 >git init
