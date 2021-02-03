@@ -5,6 +5,8 @@ Source code for a continuously delivered Flask Application on Google Cloud Platf
 
 Create a new Google Cloud project
 
+In the Cloud Shell run the following:
+
 Set the new project
 ```{bash}
 gcloud config set project $GOOGLE_CLOUD_PROJECT
