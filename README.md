@@ -10,6 +10,7 @@ Set the new project
 gcloud config set project $GOOGLE_CLOUD_PROJECT
 ```
 Clone this repository and set it as the working directory
+
 Create a virtual environment and source it
 ```{bash}
 virtualenv --python $(which python3) venv
