@@ -9,8 +9,8 @@ In the Cloud Shell run the following:
 
 >Set the new project
 >```{bash}
-gcloud config set project $GOOGLE_CLOUD_PROJECT
-```
+>gcloud config set project $GOOGLE_CLOUD_PROJECT
+>```
 >Clone this repository and set it as the working directory
 ```{bash}
 git clone https://github.com/malcolmsfraser/ml-gcp.git
