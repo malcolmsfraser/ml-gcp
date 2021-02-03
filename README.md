@@ -1,8 +1,10 @@
 # ml-gcp
 Source code for a continuously delivered ML Flask Application on Google Cloud Platform. App build is coordinated using Cloud Build with a listener to this repository.
 
-To set up this application on your own:
+Setting up this application on your own:  
+
 Create a new project in google cloud
+
 Set the new project
 ```{bash}
 gcloud config set project $GOOGLE_CLOUD_PROJECT
