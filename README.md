@@ -5,7 +5,7 @@ Source code for a continuously delivered Flask Application on Google Cloud Platf
 
 Create a new Google Cloud project
 
-In the Cloud Shell run the following:
+>In the Cloud Shell run the following:
 
 Set the new project
 ```{bash}
