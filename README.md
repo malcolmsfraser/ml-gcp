@@ -1,5 +1,5 @@
 # ml-gcp
-Source code for a continuously delivered ML Flask Application on Google Cloud Platform. App build is coordinated using Cloud Build with a listener to this repository.
+Source code for a continuously delivered Flask Application on Google Cloud Platform. App build is coordinated using Cloud Build with a listener to this repository.
 
 ### Setting up this application on your own  
 
@@ -18,6 +18,10 @@ Create a virtual environment and source it
 ```{bash}
 virtualenv --python $(which python3) venv
 source venv/bin/activate
+```
+Make sure the flask application spplication is working properly
+```{bash}
+python main.py
 ```
 Create an application with Google App Engine
 ```{bash}
