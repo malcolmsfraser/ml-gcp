@@ -57,7 +57,7 @@ Back on the GCP Dashboard
 
 >Navigate to the Cloud Build dashboard
 >Navigate to the Settings tab
->>Ensure that App Engine Admin and Service Account User are enabled
+>>Ensure that App Engine Admin and Service Account User are enabled  
 >>Click the link at the bottom for the IAM Section
 >>>Ensure that the user ending in <@cloudbuild.gserviceaccount.com> has the following roles:  
 
