@@ -58,7 +58,6 @@ Back on the GCP Dashboard
 >Navigate to the Cloud Build dashboard
 >Navigate to the Settings tab
 >>Ensure that App Engine Admin and Service Account User are enabled
-
 >>Click the link at the bottom for the IAM Section
 >>>Ensure that the user ending in <@cloudbuild.gserviceaccount.com> has the following roles:  
 
@@ -68,5 +67,5 @@ Back on the GCP Dashboard
 
 Back on the Cloud Build dashboard, navigate to the Triggers tab
 
->Select "Create Trigger"
+>Select "Create Trigger"  
 >Follow directions to create a Push trigger linked to your repository.
