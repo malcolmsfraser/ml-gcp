@@ -4,4 +4,6 @@ install:
 lint:
 	pylint --disable=R,C main.py
 	pylint --disable=R,C main3.py
-all: install lint
+deploy:
+	gcloud app deploy
+all: install lint deploy
