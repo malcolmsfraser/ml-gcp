@@ -25,6 +25,10 @@ In the Cloud Shell run the following:
 >virtualenv --python $(which python3) venv
 >source venv/bin/activate
 >```
+>Install dependencies
+>```{bash}
+>make install
+>```
 >Make sure the flask application spplication is working properly
 >```{bash}
 >python main.py
