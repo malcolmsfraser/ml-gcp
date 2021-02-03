@@ -37,7 +37,7 @@ In the Cloud Shell run the following:
 >```{bash}
 >make setup
 >```
->Install requirements, lint, and deploy application
+>Install, lint, and deploy application
 >```{bash}
 >make all
 >```
